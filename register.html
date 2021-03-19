@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+    <!--Use GET,not Post-->
+    <form method="GET">
+      First Name:<input type="text" name="firstname" />
+      <br />
+      Last Name:<input type="text" name="lastname" />
+      <br />
+      Email:<input type="email" name="email" required! /><br />
+      Password:<input type="password" min="5" /><br />
+      Birthday:<input type="date" name="birthday" /><br />
+      Gender:<hr>
+
+      <input type="radio" name="Gender" value="Male" /> Male <br />
+      <input type="radio" name="Gender" value="Female" /> Female <br />
+      <input type="radio" name="Gender" value="Others" />Others <br />
+      Pets: <hr>
+      <input type="checkbox" name="cat" /> Cat<br />
+      <input type="checkbox" name="dog" /> Dog<br />
+      Cars:<hr>
+      <select name="Cars">
+        <option value="Volvo" name="Volvo">Volvo</option>
+        <option value="Audi" name="Audi">Audi</option>
+        <option value="Fiat" name="Fiat">Fiat</option>
+        <option value="BMW" name="BMW">BMW</option></select>
+        <hr>
+      Bicycle:
+      <hr>
+      <select name="Bicycles">
+        <option value="MountainBike" name="MountainBike">MountainBike</option>
+        <option value="BMX" name="BMX">BMX</option>
+        <option value="RaceBike" name="RaceBike">RaceBike</option>
+      </select>
+      <hr>
+      Region:<br />
+      
+        <input type="checkbox" name="Europe" />
+        Europe<br />
+        <input type="checkbox" name="Asia" />
+        Asia
+        <br>
+        <input type="checkbox" name="Oceania" />
+        Oceania
+        <br>
+        <input type="checkbox" name="NorthAmerica">NorthAmerica
+        <br>
+        <input type="checkbox" name="Russia">Russia
+        <br>
+        <input type="checkbox" name="SouthAmerica">SouthAmerica
+          </select>
+          
+
+<hr>
+      <input type="submit" value="Register!" />
+      <input type="reset" />
+    </form>
+    <br />
+    <a href="index.html">Home Page</a>
+    <a href="New Page.html">New page</a>
+  </body>
+</html>
